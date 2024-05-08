@@ -1,2 +1,2 @@
-# frontend-mentor-challanges
-A Repository to keep track of frontend mentor challanges
+# frontend-mentor-challange
+QR Code Component
