@@ -27,7 +27,7 @@ body {
   position: relative;
 }
 
-.qr-code img {
+.qr-code svg {
   margin: 63px 64px;
   position: absolute;
   z-index: 2;
@@ -57,14 +57,14 @@ body {
   color: #7d889e;
 }
 
-.top-circle img {
+.top-circle svg {
   position: absolute;
   border-radius: 10px 0 0 0;
   /* height: 162px; */
   top: 0;
 }
 
-.bottom-circle img {
+.bottom-circle svg {
   position: absolute;
   top: 204px;
   right: 0px;
