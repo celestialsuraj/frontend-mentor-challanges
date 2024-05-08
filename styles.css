@@ -1,28 +1,36 @@
 body {
   background: #d5e1ef;
-  display: flex;
 }
 
 .main-container {
-  width: 20rem;
-  height: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 152px;
+}
+
+.card-container {
+  width: 320px;
+  height: 497px;
   background-color: white;
-  margin: 152px 560px;
   border-radius: 20px;
   padding-top: 1px;
 }
 
-.sub-container {
+.qr-code-container {
   width: 288px;
   height: 288px;
   border-radius: 10px;
   background: #2c7dfa;
   margin: 15px 16px;
   padding-top: 1px;
+  position: relative;
 }
 
-.qr-code {
+.qr-code img {
   margin: 63px 64px;
+  position: absolute;
+  z-index: 2;
 }
 
 .text-container {
@@ -47,4 +55,18 @@ body {
   text-align: center;
   font-weight: 400;
   color: #7d889e;
+}
+
+.top-circle img {
+  position: absolute;
+  border-radius: 10px 0 0 0;
+  /* height: 162px; */
+  top: 0;
+}
+
+.bottom-circle img {
+  position: absolute;
+  top: 204px;
+  right: 0px;
+  border-radius: 0 0 10px 0;
 }
