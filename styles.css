@@ -15,6 +15,9 @@ body {
   background-color: white;
   border-radius: 20px;
   padding-top: 1px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .qr-code-container {
@@ -27,7 +30,7 @@ body {
   position: relative;
 }
 
-.qr-code svg {
+.qr-code img {
   margin: 63px 64px;
   position: absolute;
   z-index: 2;
@@ -35,11 +38,15 @@ body {
 
 .text-container {
   font-family: "Outfit";
+  width: 288px;
+  height: 129px;
 }
 .heading {
-  font-size: x-large;
+  font-size: 23px;
   font-weight: 700;
-  margin: 0px 16px 0px 16px;
+  width: 288px;
+  height: 56px;
+  margin: 16px 0px 0px 0px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -48,6 +55,7 @@ body {
 }
 
 .description {
+  font-size: 15px;
   margin: 15px 30px 0px 30px;
   display: flex;
   justify-content: center;
@@ -55,16 +63,18 @@ body {
   text-align: center;
   font-weight: 400;
   color: #7d889e;
+  width: 256px;
+  height: 57px;
 }
 
-.top-circle svg {
+.top-circle img {
   position: absolute;
   border-radius: 10px 0 0 0;
   /* height: 162px; */
   top: 0;
 }
 
-.bottom-circle svg {
+.bottom-circle img {
   position: absolute;
   top: 204px;
   right: 0px;
