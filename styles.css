@@ -46,7 +46,7 @@ body {
   font-weight: 700;
   width: 288px;
   height: 56px;
-  margin: 16px 0px 0px 0px;
+  margin-top: 12px;
   display: flex;
   justify-content: center;
   align-items: center;
